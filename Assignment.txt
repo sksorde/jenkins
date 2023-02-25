@@ -1,0 +1,36 @@
+Problem Statement
+•Create a freestyle project with the name QA_UNIT_TEST in Jenkins that is driven from job DEVELOPER_CODE_REVIEW and performs unit testing Take ascreenshot of the console output showingasuccessful build of unit testing
+•Create a freestyle project with thename QA_ METRICS _CHECK in Jenkins to check the test cases.Make surethe Coberturaplugin is installed in JenkinsTake ascreenshot of the metrics from the dashboard of the project.
+•Create a freestyle project with the name QA_ PACKAGE in Jenkins to create an executable jar/war file.Take ascreenshot of the target folder created in the workspace.
+•Create a pipeline named SAMPLE_COMPILE_VIEW with Build Pipeline View option, selectDEVELOPER_COMPILE project under layout section,and run the pipeline to check the console outputTake ascreenshot of the pipeline dashboard showing the status of the projects
+•The pipelines can also be extended to running web tests and load tests. Explain how you would do the same using Jenkins?
+
+Problem StatementYou are working as a DevOps Engineer in a company named Sanders & Fresco Pvt ltd. You have been asked by your manager to create a Maven Project using Jenkins and build a war file of that project. 
+As a proof of concept, you have been given a web application to build. 
+And once done with building the war file, deploy it overthetomcat server.
+Steps to solve:
+•Open Jenkins and create a Maven project using it.
+•You will have to create thefollowing jobs,which are as follow:
+oCompile
+oCode Review
+oUnit test
+oPackage  
+oDeploy 
+You have to complete your job within the given timeframe. 
+
+1080
+
+github.com/akshu20791/edureka0981
+github.com/akshu20791/DevOpsClassCodes
+github.com/gabrielf/maven-samples
+
+drive.google.com/drive/folders/1RLIBaEACWWvWuwoKYAWGt_gNm5q_gYvm
+
+https://www.middlewareinventory.com/blog/jenkins-tomcat-deploy-deploying-application-tomcat-using-jenkins/
+https://www.theserverside.com/video/Step-by-step-Jenkins-Tomcat-deploy-of-a-WAR-file
+
+Step 16: If the job is successfully built, go to the below path and find your webapp.war file.
+$ cd /var/lib/Jenkins/workspace/Maven_proj1_QApackage/multi-module/webapp/target
+$ ls
+Copy Copy the given code and paste it in the Execute shell command:
+sudo cp /var/lib/jenkins/workspace/Maven_Proj1_QApackage/multimodule/webapp/target/webapp.war /opt/tomcat/webapps/
