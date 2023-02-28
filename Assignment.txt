@@ -23,6 +23,7 @@ You have to complete your job within the given timeframe.
 github.com/akshu20791/edureka0981
 github.com/akshu20791/DevOpsClassCodes
 github.com/gabrielf/maven-samples
+https://github.com/edureka-git/devops.git
 
 drive.google.com/drive/folders/1RLIBaEACWWvWuwoKYAWGt_gNm5q_gYvm
 
